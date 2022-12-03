@@ -117,7 +117,7 @@ footer a:hover {
 .hero-box {
   background-color: var(--accent2-color);
   width: 100%;
-  height: 500px;
+  height: 250px;
   grid-column: 1/4;
   grid-row: 1/4;
 }
@@ -244,6 +244,58 @@ footer a:hover {
   max-height: 400px;
   margin: 0 auto;
   display: block;
+}
+
+.btn {
+  border: none;
+  border: 1px solid var(--accent1-color);
+  background-color: var(--accent1-color);
+  padding: 8px 16px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background: none;
+  cursor: pointer;
+}
+
+.buttons-container .btn {
+  margin: 0;
+  float: left;
+  margin-bottom: 5px;
+}
+
+/* Create two equal columns that floats next to each other */
+.row {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.column {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  flex-basis: 50%;
+  color: #eaeaea;
+}
+
+.column h2 {
+  color: var(--headline-color-on-color);
+}
+
+.column .img-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 50%;
+  max-height: 100%;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
