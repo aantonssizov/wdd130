@@ -271,6 +271,7 @@ footer a:hover {
   gap: 5px;
   flex-direction: row;
   margin-bottom: 5px;
+  justify-content: center;
 }
 
 .column {
@@ -279,6 +280,9 @@ footer a:hover {
   border-radius: 5px;
   flex-basis: 50%;
   color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .column h2 {
